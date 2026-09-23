@@ -1,0 +1,44 @@
+name: Bug report
+description: Report unexpected behavior with a reproducible example.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Remove credentials and private data from configuration and logs.
+        For vulnerabilities, follow the [security policy](https://github.com/limanix/.github/blob/main/SECURITY.md).
+  - type: input
+    id: version
+    attributes:
+      label: Version or commit
+      description: Include the client and module catalog versions when relevant.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Relevant OS and architecture, backend, or module selectors.
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: Include the smallest configuration and commands that reproduce the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant logs
+      render: text
