@@ -5,6 +5,7 @@
 <p>
   <a href="https://limanix.dev/categories/client/getting-started.html"><strong>Get started</strong></a> ·
   <a href="https://limanix.dev">Documentation</a> ·
+  <a href="https://limanix.dev/comparison.html">Compare</a> ·
   <a href="https://github.com/limanix/client/releases">Releases</a> ·
   <a href="https://github.com/limanix/.github/blob/main/CONTRIBUTING.md">Contributing</a>
 </p>
