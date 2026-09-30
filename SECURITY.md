@@ -1,15 +1,19 @@
 # Security
 
-Report suspected vulnerabilities privately through **Security → Report a
-vulnerability** in the affected repository. Do not disclose them in public
-issues, pull requests, or discussions.
+## Reporting a vulnerability
 
-Include:
+Do not open a public issue for security problems.
 
-- The affected project and version or commit.
-- The impact and conditions required to reproduce the vulnerability.
-- A minimal reproduction or proof of concept, with private data removed.
+Use GitHub private vulnerability reporting: **Security → Report a vulnerability** on the affected repository.
+Reports are visible only to you and the maintainers.
+Include the affected project and version or commit, the impact, and clear steps to reproduce the issue.
 
-Keep follow-up information in the private report while a fix and public
-disclosure are discussed. Do not include live credentials or unrelated personal
-data.
+## Supported versions
+
+We support only the latest release of each project for security fixes.
+Please reproduce vulnerability reports against the latest release when possible.
+
+## Report handling
+
+- We coordinate the fix privately, then publish the release and advisory.
+- The advisory credits you unless you ask us not to.
