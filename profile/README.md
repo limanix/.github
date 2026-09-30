@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/limanix/.github/main/assets/logo/limanix-main.png" alt="LimaNix" width="120">
+<img src="https://raw.githubusercontent.com/limanix/.github/main/assets/banner/limanix-header.png" alt="LimaNix" width="100%">
 
 <p>
   <a href="https://limanix.dev/categories/client/getting-started.html"><strong>Get started</strong></a> ·
@@ -39,6 +39,6 @@ limanix shell dev-box
 ## Get involved
 
 - For questions, bug reports, and ideas, open an issue in the relevant repository.
+- Report vulnerabilities privately using the [security policy](https://github.com/limanix/.github/blob/main/SECURITY.md).
 - Read the [contribution guide](https://github.com/limanix/.github/blob/main/CONTRIBUTING.md) for issues and pull requests.
 - Follow the [Code of Conduct](https://github.com/limanix/.github/blob/main/CODE_OF_CONDUCT.md).
-- Report vulnerabilities privately using the [security policy](https://github.com/limanix/.github/blob/main/SECURITY.md).
