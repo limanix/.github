@@ -1,0 +1,22 @@
+name: "Documentation"
+description: "Report missing, unclear, or outdated documentation"
+type: "Documentation"
+body:
+  - type: input
+    id: where
+    attributes:
+      label: Page URL or file path
+      description: "For missing documentation, name the topic or section where you expected to find it."
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is unclear or missing?
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested improvement
+      description: "Suggest wording or structure. Optional."

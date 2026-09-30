@@ -1,0 +1,43 @@
+name: "Bug report"
+description: "Report unexpected behavior"
+type: "Bug"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Remove credentials and private data from configuration and logs.
+        For vulnerabilities, follow the [security policy](https://github.com/limanix/.github/blob/main/SECURITY.md).
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: "What did you do, what did you expect, what happened instead?"
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: "Include the smallest configuration and commands needed to reproduce the problem."
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: Client and modules versions
+      description: "Include both versions when relevant, or the commit where the behavior appears."
+      placeholder: "e.g. client v0.0.1+1, modules v2"
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: "Host OS and architecture; say whether it happens on the host, inside the VM, or during repository checks."
+      placeholder: "e.g. macOS 26 / arm64; inside the VM"
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or output
+      description: "Paste command output, GitHub Actions output, backtraces, or other relevant logs."
+      render: text
