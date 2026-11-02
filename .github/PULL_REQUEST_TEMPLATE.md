@@ -1,27 +1,23 @@
-## Description
+## 📝 Description
 
-<!-- Describe what changed and why. -->
+<!-- Explain the purpose of this PR: what changes and why. -->
 
-## Related issues
+## ✅ Checklist
 
-<!-- Link related issues, for example: Resolves #123. -->
+- [ ] Documentation updated (if relevant)
+- [ ] Tests added or updated (if relevant)
+- [ ] Breaking changes documented with migration notes (if applicable)
+- [ ] Relevant checks run, or limitations explained below
 
-## Verification
+## 🔄 Related issues
 
-<!--
-List the checks you ran and note anything you could not verify.
--->
+<!-- Link related issues if applicable, for example: Resolves #ISSUE_ID. -->
 
-<!--
-## Release label
+## 🧪 Verification
 
-At least one release label is required before merge: `feature`, `bug`, `docs`, `deps`, `tooling`, `other`, or `skip`.
-If you cannot apply a label, a maintainer adds it during review.
--->
+<!-- List the commands you ran and their results. Explain any checks you could not run. -->
 
-## Checklist
+______________________________________________________________________
 
-- [ ] Documentation updated (README, guides, examples)
-- [ ] Tests added/updated (if relevant)
-
-<!-- If there are breaking changes, describe them in the Description section and include migration notes. -->
+<!-- Add a release label: feature, bug, docs, deps, tooling, other, or skip.
+     A maintainer can add it if needed. -->

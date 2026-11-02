@@ -24,9 +24,9 @@ body:
   - type: input
     id: versions
     attributes:
-      label: Client and modules versions
-      description: "Include both versions when relevant, or the commit where the behavior appears."
-      placeholder: "e.g. client v0.0.1+1, modules v2"
+      label: Versions
+      description: "`limanix --version` on the Mac and `lmx version` in the VM, or the commit where the behavior appears."
+      placeholder: "e.g. limanix v0.3.1, lmx 0.3.2"
     validations:
       required: true
   - type: input

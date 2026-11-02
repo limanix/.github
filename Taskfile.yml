@@ -1,0 +1,28 @@
+# yaml-language-server: $schema=https://taskfile.dev/schema.json
+version: '3.53.1'
+
+includes:
+  markdown:
+    # v0.1.0
+    taskfile: https://raw.githubusercontent.com/mr-chelyshkin/tasks/3aa8c569bdc71b41fa50fc33f66e2ef1317813ed/taskfiles/markdown/Taskfile.yml
+    internal: true
+
+vars:
+  markdown_paths: >-
+    README.md CONTRIBUTING.md CODE_OF_CONDUCT.md SECURITY.md
+    .github/PULL_REQUEST_TEMPLATE.md profile/README.md snippets/project-header.md
+
+tasks:
+  ci/markdown/fmt:
+    desc: Check source Markdown formatting
+    cmds:
+      - task: markdown:fmt
+        vars:
+          FMT_ARGS: '{{.markdown_paths}}'
+
+  markdown/fix:
+    desc: Format source Markdown
+    cmds:
+      - task: markdown:fmt/fix
+        vars:
+          FMT_ARGS: '{{.markdown_paths}}'
