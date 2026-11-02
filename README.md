@@ -13,5 +13,6 @@
 </p>
 
 <p align="center"><sub>macOS 26 or newer | Apple Silicon and Intel</sub></p>
+</div>
 
 Shared community files for [LimaNix](https://github.com/limanix).
