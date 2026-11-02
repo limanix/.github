@@ -10,7 +10,7 @@ includes:
 vars:
   markdown_paths: >-
     README.md CONTRIBUTING.md CODE_OF_CONDUCT.md SECURITY.md
-    .github/PULL_REQUEST_TEMPLATE.md profile/README.md snippets/project-header.md
+    .github/PULL_REQUEST_TEMPLATE.md profile/README.md 
 
 tasks:
   ci/markdown/fmt:
