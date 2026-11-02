@@ -4,3 +4,6 @@
 # IDE
 .idea/
 .vscode/
+
+# Task runner cache
+.task/
