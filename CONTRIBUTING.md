@@ -118,7 +118,7 @@ catalog. The order of a change matters.
 | A new theme or prompt | Release the catalog. No client pull request is needed: a client takes them from the catalog it bundles | Nothing |
 | The configuration `lmx` reads, `config.json` and `help.json` | Release `lmx`, then one client pull request moves the pin in `lmx.json` and writes the new field | `lmx` rejects unknown fields: a system that writes the field first fails to build |
 | The host contract | Follow the [rules for changing it](https://github.com/limanix/lmx/blob/main/contract/README.md#change-the-host-contract). Release `lmx`, then one client pull request moves the pin and reads the change | A client stops on a version it does not read: `lmx answered with host contract N` |
-| A new command, a new `limanix.toml` table or a new field in `reference.json` | Update `reference.json` with `task reference/fix`, release the project, then add the page in `site`. `lmx` reaches the site through the client that pins it | After the release, every site build fails with `is on no page` or `Unknown field` until the site pull request merges. A site pull request opened first fails with `no region` |
+| A new command, a new `limanix.toml` table or a new field in `reference.json` | Update `reference.json` with `task reference/fix`, release the project, then add the page in `site`. `lmx` reaches the site through the client that pins it | A site page that includes a region absent from the selected release fails with `no region`. New source fields and unused generated regions do not by themselves fail the site build |
 
 To check a change before its release, build against your checkouts:
 `modules_source=../modules` and `lmx_source=../lmx` in the tasks of `client`,
